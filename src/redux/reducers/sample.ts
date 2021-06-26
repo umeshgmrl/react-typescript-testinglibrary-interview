@@ -1,10 +1,10 @@
 import * as types from "../types";
+import { SampleAction } from "../types";
 
 export interface SampleState {
   counter: number;
 }
 
-export type SampleAction = unknown;
 
 const initialState: SampleState = {
   counter: 0,
